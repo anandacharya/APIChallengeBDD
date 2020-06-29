@@ -1,0 +1,526 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Check the number of races in a season using JSON response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-json-response;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5225590200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to know the number of Formula One races in \"2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10376457399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I retrieve the circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4985885099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "there should be \"20\" circuits in the list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Check the number of races in a season using JSON response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-json-response;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3012200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to know the number of Formula One races in \"2016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2016",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 876617100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I retrieve the circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152021201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "there should be \"21\" circuits in the list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Check the number of races in a season using JSON response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-json-response;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5805000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to know the number of Formula One races in \"1966\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1966",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784933200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I retrieve the circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99751400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "there should be \"9\" circuits in the list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Check the number of races in a season using JSON response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-json-response;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2122400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to know the number of Formula One races in \"1950\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1950",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 754140400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I retrieve the circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100551699,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[8]\u003e but was:\u003c[7]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(CircuitsApiStepDefinition.java:44)\r\n\tat ✽.Then there should be \"8\" circuits in the list returned(src/main/java/features/CircuitsApi.Feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "there should be \"8\" circuits in the list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Check the number of races in a season using xml response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-xml-response;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1566500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to know the number of Formula One races in \"2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2017",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1236455000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I retrieve the xml circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_xml_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434848699,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "there should be \"20\" circuits in the xml list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Check the number of races in a season using xml response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-xml-response;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1632600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to know the number of Formula One races in \"2016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2016",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 833478700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I retrieve the xml circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_xml_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88469101,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "there should be \"21\" circuits in the xml list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Check the number of races in a season using xml response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-xml-response;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394999,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to know the number of Formula One races in \"1966\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1966",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 808551600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I retrieve the xml circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_xml_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349383400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "there should be \"9\" circuits in the xml list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Check the number of races in a season using xml response",
+        "description": "",
+        "id": "circuitsapi;check-the-number-of-races-in-a-season-using-xml-response;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6919400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I want to know the number of Formula One races in \"1950\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1950",
+                  "offset": 51
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.i_want_to_know_the_number_of_Formula_One_races_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823289001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I retrieve the xml circuit list for that season",
+            "match": {
+              "location": "CircuitsApiStepDefinition.i_retrieve_the_xml_circuit_list_for_that_season()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81665301,
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003c8\u003e but was:\u003c7\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:86)\r\n\tat stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(CircuitsApiStepDefinition.java:57)\r\n\tat ✽.Then there should be \"8\" circuits in the xml list returned(src/main/java/features/CircuitsApi.Feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "there should be \"8\" circuits in the xml list returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 17
+                }
+              ],
+              "location": "CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CircuitsApi",
+    "description": "",
+    "id": "circuitsapi",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/CircuitsApi.Feature"
+  }
+]

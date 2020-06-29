@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="28.034542">
+<testcase classname="CircuitsApi" name="Check the number of races in a season using JSON response" time="20.587933">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "2017"..............passed
+When I retrieve the circuit list for that season............................passed
+Then there should be "20" circuits in the list returned.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using JSON response 2" time="1.031651">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "2016"..............passed
+When I retrieve the circuit list for that season............................passed
+Then there should be "21" circuits in the list returned.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using JSON response 3" time="0.89049">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "1966"..............passed
+When I retrieve the circuit list for that season............................passed
+Then there should be "9" circuits in the list returned......................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using JSON response 4" time="0.856814">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[8]&gt; but was:&lt;[7]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(CircuitsApiStepDefinition.java:44)&#13;&#10;&#9;at ✽.Then there should be &quot;8&quot; circuits in the list returned(src/main/java/features/CircuitsApi.Feature:6)&#13;&#10;"><![CDATA[Given I want to know the number of Formula One races in "1950"..............passed
+When I retrieve the circuit list for that season............................passed
+Then there should be "8" circuits in the list returned......................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[8]> but was:<[7]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_list_returned(CircuitsApiStepDefinition.java:44)
+	at ✽.Then there should be "8" circuits in the list returned(src/main/java/features/CircuitsApi.Feature:6)
+]]></failure>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using xml response" time="1.67287">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "2017"..............passed
+When I retrieve the xml circuit list for that season........................passed
+Then there should be "20" circuits in the xml list returned.................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using xml response 2" time="0.92358">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "2016"..............passed
+When I retrieve the xml circuit list for that season........................passed
+Then there should be "21" circuits in the xml list returned.................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using xml response 3" time="1.15933">
+<system-out><![CDATA[Given I want to know the number of Formula One races in "1966"..............passed
+When I retrieve the xml circuit list for that season........................passed
+Then there should be "9" circuits in the xml list returned..................passed
+]]></system-out>
+</testcase>
+<testcase classname="CircuitsApi" name="Check the number of races in a season using xml response 4" time="0.911874">
+<failure message="junit.framework.AssertionFailedError: expected:&lt;8&gt; but was:&lt;7&gt;&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:57)&#13;&#10;&#9;at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:78)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:86)&#13;&#10;&#9;at stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(CircuitsApiStepDefinition.java:57)&#13;&#10;&#9;at ✽.Then there should be &quot;8&quot; circuits in the xml list returned(src/main/java/features/CircuitsApi.Feature:17)&#13;&#10;"><![CDATA[Given I want to know the number of Formula One races in "1950"..............passed
+When I retrieve the xml circuit list for that season........................passed
+Then there should be "8" circuits in the xml list returned..................failed
+
+StackTrace:
+junit.framework.AssertionFailedError: expected:<8> but was:<7>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at stepDefinitions.CircuitsApiStepDefinition.there_should_be_circuits_in_the_xml_list_returned(CircuitsApiStepDefinition.java:57)
+	at ✽.Then there should be "8" circuits in the xml list returned(src/main/java/features/CircuitsApi.Feature:17)
+]]></failure>
+</testcase>
+</testsuite>
